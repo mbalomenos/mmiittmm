@@ -130,7 +130,7 @@ def capture_packets(target_ip, gateway_ip):
         return []
 
 def modify_packets(packets):
-    """Function to modify captured packets before forwarding
+    """Function to modify captured packets before forwarding"""
     try:
         explain_step(9, "Modifying captured packets before forwarding...")
 
